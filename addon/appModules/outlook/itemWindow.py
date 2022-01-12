@@ -448,5 +448,3 @@ class OutlookItemWindow(object):
 		if controlTypes.State.INVISIBLE in obj.states:
 			raise HeaderFieldNotFoundeError()
 		return obj,name
-
-
